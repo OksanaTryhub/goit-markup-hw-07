@@ -1,0 +1,24 @@
+.features-list {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .features-icon-box {
+    width: 100%;
+    height: 120px;
+    background-color: var(--secondary-bgc);
+    border-radius: 4px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .features-list-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    max-width: 270px;
+  }

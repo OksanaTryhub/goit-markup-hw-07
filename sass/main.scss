@@ -1,14 +1,35 @@
-@import './base/';
+@import './utils/vars';
+@import './base/common';
 
-@import './utils/placeholders';
+@import './base/reset';
 
-@import './components/ ';
+@import './components/button';
+@import './components/section';
+@import './components/container';
+@import './components/title';
+@import './components/subtitle';
+@import './utils/vh';
 
 @import './layouts/header';
+@import './components/logo';
+@import './components/navigation';
+
+
 @import './layouts/hero';
 @import './layouts/features';
 @import './layouts/services';
 @import './layouts/team';
-@import './layouts/hero';
-@import './layouts/hero';
-@import './layouts/hero';
+@import './layouts/clients';
+
+@import './layouts/footer';
+@import './components/contacts-list';
+@import './components/social-links';
+@import './components/subscription';
+
+@import './layouts/portfolio';
+@import './components/portfolio-menu';
+
+@import './components/backdrop';
+@import './components/modal';
+
+
