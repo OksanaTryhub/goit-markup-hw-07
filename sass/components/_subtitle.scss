@@ -1,8 +1,11 @@
 .subtitle {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font (null, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--main-title-color);
     margin-bottom: 10px;
+  }
+  
+  .footer__subtitle {
+    color: var(--white);
+    margin-bottom: 20px;
   }

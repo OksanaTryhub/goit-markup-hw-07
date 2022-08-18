@@ -1,13 +1,16 @@
-.social-links-box {
+.socials {
     display: block;
     min-width: 206px;
-  }
-.social-links-list {
-    display: flex;
-    justify-content: space-between;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__icon {
+      fill: currentColor;
+    }
   }
   
-  .social-link {
+  .socials__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -16,14 +19,14 @@
     justify-content: center;
     
     background-color: rgba(255, 255, 255, 0.1);
-    color: #ffffff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .social-link:hover,
-  .social-link:focus {
+    color: var(--white);
+    transition: background-color var(--animation);
+    
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
   }
-  
-  .social-link-icon {
-    fill: currentColor;
   }
+  
+  
+  
