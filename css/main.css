@@ -285,6 +285,7 @@ body {
 
 .link.current::after {
   content: "";
+  display: block;
   position: absolute;
   bottom: -1px;
   right: 0;
@@ -292,7 +293,6 @@ body {
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
-  display: block;
 }
 
 .header__logo {
